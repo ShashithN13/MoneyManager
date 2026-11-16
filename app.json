@@ -4,7 +4,7 @@
     "slug": "MoneyManager",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.jpg",
     "scheme": "moneymanager",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -21,10 +21,17 @@
     },
     "web": {
       "output": "server",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logo.jpg"
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-notifications",
+        {
+          "enableRemoteNotifications": false,
+          "color": "#087F5B"
+        }
+      ],
       [
         "expo-splash-screen",
         {
