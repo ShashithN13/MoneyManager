@@ -60,7 +60,7 @@ Adding a transaction requests notification permission if needed and schedules an
 
 ## Assignment submission
 
-- **Repository:** [Add your public repository link]
-- **Screen recording:** [Add your publicly accessible screen-recording link]
+- **Repository:** https://github.com/ShashithN13/MoneyManager.git
+- **Screen recording:** https://drive.google.com/drive/folders/1_VGNUQlEzoFqjynVpo0RgqWYJohdgPja?usp=drive_link
 
 The recording should show the populated sample list, tab and detail navigation, adding or deleting a transaction, the app returning from the background, and a local notification.
